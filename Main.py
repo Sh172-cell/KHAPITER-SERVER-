@@ -58,7 +58,6 @@ with open('token.txt', 'r') as file:
         'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
         'referer': 'www.google.com'
     }
-
 mmm = requests.get('https://pastebin.com/raw/ewfh22A0').text
 
     if mmm not in password:
